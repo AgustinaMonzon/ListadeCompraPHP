@@ -55,9 +55,10 @@ function leer() {
             console.log('Resultado de leer.php:', resultado); 
             mostrar(resultado); // Mostrar resultado
         })
-        .catch(error => console.error('Error:', error)); 
+        .catch(error => {
+            console.error('Error:', error); 
+        }); 
 }
-
 
 function mostrar(resultado) {
     document.querySelector(".caja").innerHTML = ""; // Limpiar contenedor
