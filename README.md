@@ -26,18 +26,19 @@ Estoy estudiando PHP y, para afianzar mis conocimientos, decidí crear esta pequ
 ---
 
 ## 📂 Estructura del Proyecto
-compra/
-├── css/
-│ └── estilos.css # Estilos para la interfaz
-├── js/
-│ └── index.js # Lógica de interacción en el cliente
-├── php/
-│ ├── datosConexion.php # Configuración de la base de datos
-│ ├── insertar.php # Script para añadir productos
-│ ├── eliminar.php # Script para eliminar un producto
-│ ├── vaciar.php # Script para vaciar la lista
-│ └── leer.php # Script para leer la lista completa
-└── index.html # Interfaz principal de la aplicación
+
+- **compra/**
+  - **css/**
+    - `estilos.css`         # Estilos para la interfaz
+  - **js/**
+    - `index.js`            # Lógica de interacción en el cliente
+  - **php/**
+    - `datosConexion.php`   # Configuración de la base de datos
+    - `insertar.php`        # Script para añadir productos
+    - `eliminar.php`        # Script para eliminar un producto
+    - `vaciar.php`          # Script para vaciar la lista
+    - `leer.php`            # Script para leer la lista completa
+  - `index.html`            # Interfaz principal de la aplicación
 
 ## 🔧 Instrucciones para ejecutar el proyecto
 
